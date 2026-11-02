@@ -13,6 +13,9 @@
     h1,h2{color:#003366;margin-top:0}
     section{margin:2rem 0}
     ul{padding-left:1.2rem}
+    .news-scroll{max-height:240px;overflow-y:auto;scrollbar-gutter:stable;padding-right:.75rem}
+    .news-scroll:focus-visible{outline:2px solid #0066cc;outline-offset:3px}
+    .news-scroll ul{margin-top:0;margin-bottom:0}
     a{color:#0066cc;text-decoration:none}
     a:hover{text-decoration:underline}
     a:focus-visible{outline:2px solid #0066cc;outline-offset:3px}
@@ -44,7 +47,8 @@
 </section>
 
     <section id="news">
-      <h2>News</h2>
+      <h2 id="news-heading">News</h2>
+      <div class="news-scroll" tabindex="0" role="region" aria-labelledby="news-heading">
       <ul>
         <li><strong>October 2026:</strong> Served as Poster Session Co-Chair for the <a href="https://ai.engin.umich.edu/events/2026-ai-symposium/">Michigan AI Symposium</a>.</li>
         <li>
@@ -76,6 +80,7 @@
           School of Information.
         </li>
       </ul>
+      </div>
     </section>
 
     <section>
@@ -91,7 +96,7 @@
       <h2>Publications</h2>
       <h3>Journal &amp; Conference Papers</h3>
       <ul>
-        <li><em>Conversational Semantic Dynamics for Mild Cognitive Impairment Detection</em>. Jiachen Lyu, <strong>Haohao Zhu</strong>, Yijiang Pang, Hiroko H. Dodge, and Jiayu Zhou. AMIA, 2026.</li>
+        <li><a href="https://amia.secure-platform.com/symposium/solicitations/102018/sessiongallery/95339"><em>Conversational Semantic Dynamics for Mild Cognitive Impairment Detection</em></a>. Jiachen Lyu, <strong>Haohao Zhu</strong>, Yijiang Pang, Hiroko H. Dodge, and Jiayu Zhou. AMIA, 2026.</li>
         <li><a href="https://www.ijcai.org/proceedings/2025/1150"><em>Enhancing Automated Grading in Science Education through LLM-Driven Causal Reasoning and Multimodal Analysis</em></a>. <strong>Haohao Zhu</strong>, Tingting Li, Peng He, and Jiayu Zhou. IJCAI, 2025.</li>
         <li><a href="https://doi.org/10.1016/j.knosys.2023.110872"><em>PRIME: Privacy-Preserving Video Anomaly Detection via Motion Exemplar Guidance</em></a>. Yong Su, <strong>Haohao Zhu*</strong>, Yuyu Tan, Simin An, and Meng Xing. Knowledge-Based Systems, 2023. *First student author.</li>
       </ul>
