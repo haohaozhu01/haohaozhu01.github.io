@@ -3,64 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Haohao Zhu, Ph.D. student at the University of Michigan. Research in clinical conversation generation, causal reasoning, and multimodal AI.">
   <title>Haohao Zhu | Academic Homepage</title>
   <style>
-    body{font-family:Helvetica,Arial,sans-serif;margin:0;padding:0;color:#333;background:#fafafa;line-height:1.6}
-    header{background:#003366;color:#fff;padding:2rem;text-align:center}
-    main{max-width:900px;margin:2rem auto;padding:0 1rem;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.05)}
-    img.profile{width:170px;height:170px;object-fit:cover;border-radius:50%;box-shadow:0 0 6px rgba(0,0,0,.15)}
-    h1,h2{color:#003366;margin-top:0}
-    section{margin:2rem 0}
-    ul{padding-left:1.2rem}
-    a{color:#0066cc;text-decoration:none}
+    :root{--ink:#203044;--blue:#003366;--muted:#526276;--line:#dce4ed}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;color:var(--ink);background:#f5f7fa;line-height:1.75}
+    header{background:var(--blue);color:white;padding:3.5rem 1.25rem 2.5rem;text-align:center}
+    header p{margin:.6rem auto;max-width:680px}header a{color:#fff!important;text-decoration:underline;text-underline-offset:4px}
+    main{max-width:960px;margin:0 auto;padding:1rem 3rem 3rem;background:#fff}
+    img.profile{width:152px;height:152px;object-fit:cover;border-radius:50%;border:4px solid #ffffff60}
+    h1{font-family:Georgia,serif;font-size:2.6rem;line-height:1.2}h2{font-size:1.35rem;color:var(--blue);border-bottom:1px solid var(--line);padding-bottom:.5rem;margin:0 0 1rem}
+    section{margin:2.5rem 0}ul{padding-left:1.2rem}li{margin:.6rem 0}a{color:#145c9e;text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid #c69214;outline-offset:4px}
+    nav{display:flex;justify-content:center;flex-wrap:wrap;gap:.4rem 1.3rem;margin:1.5rem auto 0;font-size:.92rem}nav a{text-decoration:none}
+    .papers{list-style:none;padding:0}.papers li{padding:0 0 1.2rem;margin:0 0 1.2rem;border-bottom:1px solid var(--line)}.paper-title{display:block;font-weight:650;font-size:1.03rem;margin-bottom:.3rem}.venue{color:var(--muted)}
+    footer{text-align:center;color:var(--muted);padding:1.5rem;font-size:.9rem}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:white;padding:.5rem;z-index:2}
+    @media(max-width:640px){main{padding:1rem 1.2rem 2rem}header{padding:2.5rem 1rem 2rem}h1{font-size:2.2rem}section{margin:2rem 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header>
-    <img src="assets/profile.jpg" alt="Haohao Zhu" class="profile" onerror="this.onerror=null;this.src='assets/profile.png'" ><br>
+    <img src="assets/profile.png" alt="Haohao Zhu" class="profile" ><br>
     <h1 style="color:#fff;margin:0.5rem 0 0 0">Haohao Zhu</h1>
     <p>Ph.D. Student, School of Information, University of Michigan</p>
     <p>Email: <a href="mailto:haohaoz@umich.edu" style="color:#fffa">haohaoz@umich.edu</a> | <a href="https://scholar.google.com/citations?user=dCe_NqIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="color:#fffa">Google Scholar</a> | <a href="https://www.linkedin.com/in/haohao-zhu-9b429640b/" target="_blank" rel="noopener noreferrer" style="color:#fffa">LinkedIn</a></p>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#service">Service</a></nav>
   </header>
 
-  <main>
+  <main id="main">
 
-<!-- Intro / About paragraph -->
-<section>
-  <p>
-    Hi, I am Haohao Zhu. I am a second-year Ph.D. student at the University of Michigan,
-    advised by
-    <a href="https://www.cse.msu.edu/~jiayuz/" target="_blank">Prof.&nbsp;Jiayu&nbsp;Zhou</a>
-    and a member of the
-    <a href="https://illidanlab.github.io/" target="_blank">Illidan&nbsp;Lab</a>.
-    My research interests include <em>machine learning</em>, <em>causal reasoning</em>,
-    and <em>multimodal AI</em>. I am interested in building AI systems that are
-    reliable, interpretable, and useful for real-world problems.
-  </p>
-
-  <p>
-    I have been exploring how causal ideas and large language models
-    can help us better understand complex data across different modalities, such as
-    text, images, and structured information. My current applications focus on
-    <strong>K–12 education</strong> and <strong>healthcare</strong>.
-  </p>
+<section id="about">
+  <h2>About</h2>
+  <p>I am a Ph.D. student in the School of Information at the University of Michigan, advised by <a href="https://www.cse.msu.edu/~jiayuz/">Prof. Jiayu Zhou</a> and a member of the <a href="https://illidanlab.github.io/">Illidan Lab</a>.</p>
+  <p>My research focuses on clinical conversation generation, causal reasoning, and multimodal AI, with applications in healthcare and K–12 education. I study how language models gather information through dialogue and make decisions grounded in clinical evidence, and how text, images, and longitudinal data can support reliable prediction.</p>
 </section>
 
-    <section>
+    <section id="news">
       <h2>News</h2>
       <ul>
+        <li><strong>October 2026:</strong> Served as Poster Session Co-Chair for the <a href="https://ai.engin.umich.edu/events/2026-ai-symposium/">Michigan AI Symposium</a>.</li>
         <li>
           <strong>August 2026:</strong> Check out our
-          <a href="http://arxiv.org/abs/2608.09024" target="_blank">preprint paper</a> from my internship at
+          <a href="https://arxiv.org/abs/2608.09024" target="_blank">preprint paper</a> from my internship at
           <a href="https://ellipsishealth.com/" target="_blank" rel="noopener noreferrer">Ellipsis Health</a>!
         </li>
         <li>
-          <strong>June 2026:</strong> I will present our paper,
-          <em>Too Sure to Be Right High-Confidence Wrong and Latent Failure Signals in Medical VQA</em>, at
+          <strong>June 2026:</strong> Presented our paper,
+          <em>Too Sure to Be Right: High-Confidence Wrong and Latent Failure Signals in Medical VQA</em>, as a spotlight talk at
           <a href="https://mmfm-biomed.github.io/" target="_blank" rel="noopener noreferrer">MMFM-BIOMED @ CVPR 2026</a>.
         </li>
         <li>
-          <strong>June 2026:</strong> Happy to join
+          <strong>May 2026:</strong> Joined
           <a href="https://ellipsishealth.com/" target="_blank" rel="noopener noreferrer">Ellipsis Health</a> as a Research Intern!
         </li>
         <li>
@@ -83,21 +78,34 @@
     <section>
       <h2>Education</h2>
       <ul>
-        <li><strong>Ph.D. Student. School of Information</strong>, University of Michigan, Ann Arbor, USA — Aug&nbsp;2025&nbsp;– Present</li>
-        <li><strong>B.S. in Intelligence Science &amp; Technology</strong>, Tianjin Normal University, China — Sep&nbsp;2020&nbsp;– 2024</li>
+        <li><strong>Ph.D. Student, School of Information</strong>, University of Michigan, Ann Arbor, USA — Aug&nbsp;2025&nbsp;– Present</li>
+        <li><strong>Ph.D. Student, Computer Science</strong>, Michigan State University — Aug. 2024 – Aug. 2025</li>
+        <li><strong>B.S. in Intelligence Science &amp; Technology</strong>, Tianjin Normal University, China — Sep. 2020 – Jun. 2024</li>
       </ul>
     </section>
 
-    <section>
+    <section id="publications">
       <h2>Publications</h2>
-      <ul>
-        <li>Yong Su, <strong>Haohao Zhu</strong>* et&nbsp;al. <em>PRIME: Privacy-Preserving Video Anomaly Detection via Motion Exemplar Guidance</em>. Knowledge-Based Systems, 2023. (*first student author)</li>
-        <li><strong>Haohao Zhu</strong>, Tingting Li, Peng He, Jiayu Zhou. <em>Enhancing Automated Grading in Science Education through LLM-Driven Causal Reasoning and Multimodal Analysis</em>. IJCAI, 2025.</li>
+      <ul class="papers">
+        <li><span class="paper-title">Conversational Semantic Dynamics for Mild Cognitive Impairment Detection</span>Jiachen Lyu, <strong>Haohao Zhu</strong>, Yijiang Pang, Hiroko H. Dodge, and Jiayu Zhou.<br><span class="venue">AMIA, 2026.</span></li>
+        <li><a class="paper-title" href="https://www.ijcai.org/proceedings/2025/1150">Enhancing Automated Grading in Science Education through LLM-Driven Causal Reasoning and Multimodal Analysis</a><strong>Haohao Zhu</strong>, Tingting Li, Peng He, and Jiayu Zhou.<br><span class="venue">IJCAI, 2025.</span></li>
+        <li><span class="paper-title">PRIME: Privacy-Preserving Video Anomaly Detection via Motion Exemplar Guidance</span>Yong Su, <strong>Haohao Zhu*</strong>, Yuyu Tan, Simin An, and Meng Xing.<br><span class="venue">Knowledge-Based Systems, 2023. *First student author.</span></li>
+      </ul>
+      <h2>Workshop Papers &amp; Public Preprints</h2>
+      <ul class="papers">
+        <li><a class="paper-title" href="https://arxiv.org/abs/2608.09024">ELICITED: EHR-grounded Longitudinal Interactive Conversations for Information-seeking Triage Evaluation and Decision-making</a><strong>Haohao Zhu</strong>, Xiaolin Shi, and Jiayu Zhou.<br><span class="venue">Preprint, 2026. Work completed during my internship at Ellipsis Health.</span></li>
+        <li><a class="paper-title" href="https://mmfm-biomed.github.io/">Too Sure to Be Right: High-Confidence Wrong and Latent Failure Signals in Medical VQA</a><strong>Haohao Zhu</strong> and Jiayu Zhou.<br><span class="venue">MMFM-BIOMED Workshop at CVPR, June 2026 · Spotlight oral presentation · Non-archival.</span></li>
       </ul>
     </section>
 
-    <!-- Manuscripts hidden to preserve double-blind review integrity -->
- 
+    <section id="experience">
+      <h2>Research &amp; Experience</h2>
+      <p><strong>Research Intern · Ellipsis Health</strong><br><span class="venue">May – August 2026</span><br>Developed ELICITED for EHR-grounded, multi-turn clinical conversation generation. Studied LLM question generation and triage prediction with dialogue flow and clinical guidelines.</p>
+      <p><strong>EHR-Grounded Conversation Generation</strong><br><span class="venue">May 2026 – Present</span><br>Generate patient–clinician conversations from longitudinal EHR data to study clinical information seeking and triage decisions.</p>
+      <p><strong>Conversational Dialogue for Cognitive Impairment Detection</strong><br><span class="venue">October 2025 – Present</span><br>Study semantic dynamics and linguistic patterns in dialogue for detecting early cognitive impairment.</p>
+      <p><strong>Multimodal Reasoning for Educational Assessment</strong><br><span class="venue">September 2024 – October 2025</span><br>Developed methods for assessing K–12 science responses from student writing and drawings.</p>
+    </section>
+
     <section>
       <h2>Teaching &amp; Mentorship</h2>
       <ul>
@@ -105,10 +113,11 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Review Service</h2>
-      <p><strong>Journals:</strong> ACM Transactions on Computing for Healthcare, Neurocomputing, IEEE Journal of Biomedical and Health Informatics</p>
-      <p><strong>Conferences:</strong> IJCAI, KDD, NeurIPS, ICML, ICLR</p>
+    <section id="service">
+      <h2>Academic Service</h2>
+      <p><strong>Poster Session Co-Chair</strong>, <a href="https://ai.engin.umich.edu/events/2026-ai-symposium/">Michigan AI Symposium</a>, University of Michigan — October 2026.</p>
+      <p><strong>Journal reviewer (2024–2026):</strong> ACM Transactions on Computing for Healthcare, Neurocomputing, IEEE Journal of Biomedical and Health Informatics</p>
+      <p><strong>Conference reviewer (2024–2026):</strong> IJCAI, KDD, NeurIPS, ICML, ICLR</p>
     </section>
 
     <section>
@@ -119,5 +128,6 @@
       </ul>
     </section>
   </main>
+  <footer>Haohao Zhu · University of Michigan</footer>
 </body>
 </html>
